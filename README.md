@@ -1,4 +1,4 @@
-# RestaurantWebsite
+# Restaurant Website
 This is one of my college project. We used jquery, HTML, CSS, jQuery UI to create this imaginary restaurant website. 
 Please do not use this for commercial or any other purpose without consent of all the developers.
 I desgined the gift page.
