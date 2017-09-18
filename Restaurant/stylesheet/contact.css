@@ -1,0 +1,600 @@
+/*Sabin CSS PART*/
+/*css for the large picture of the card*/
+p{
+	text-align: center;
+}
+
+#my_giftcard{
+    width:50%;
+    height: 12rem;
+    margin: 2rem 25%;
+    border:2px solid #1c1919;
+    color:#1c1919;
+    display: inline-block;
+    position: relative;
+    
+}
+
+#tab_warpper{
+    width: 100%;
+    margin:0;
+    padding:0;
+/*    border:1px solid red;*/
+    display: block;
+    float:left;
+}
+
+#card_design{
+    width:100%;
+    height: 12rem;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+#denomination{
+    width:26%;
+    height: 4rem;
+/*    border:1px dashed #1c1c11;*/
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top:0;
+    right: 0;
+    text-align: center;
+    clear: both;
+    display:inline-block;
+    float: right;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 2.9rem;
+    color: #fff;
+    line-height: 4rem;
+    background: #000;
+    opacity: .5;
+}
+
+#card_resturant_name{
+    width:100%;
+    margin:.5rem 0;
+    padding:0;
+    position: absolute;
+    top:32%;
+    right: 0;
+/*    border:1px dotted cyan;*/
+    display: inline-block;
+    float: left;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+
+#outer_wrapper{
+    width:100%;
+    padding: 0;
+    height: auto;
+    margin: .5rem 0 0 0;
+/*    border:1px solid cyan;*/
+    float: left;
+    position: relative;
+}
+
+#previous{
+    width:20px;
+    height: 20px;
+    float:left;
+    margin:0;
+    padding:0;
+    position: absolute;
+    top:40%;
+    left:0;
+    color: orange;
+    border:1px solid orange;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    background: #000;
+    cursor: pointer;
+    cursor: hand;
+/*    opacity: .5;*/
+}
+
+#next{
+    width:20px;
+    height: 20px;
+    float:right;
+    margin:0;
+    padding:0;
+    position: absolute;
+    top: 40%;
+    right:0;
+    color: orange;
+    border:1px solid orange;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.gift_card_main_wrapper{
+    width:71.5%;
+    height:150px;
+    padding: 0;
+    margin: 0 auto;
+    
+    overflow:hidden;
+}
+
+.gift_card_wrapper{
+    width:200px;
+    height:150px;
+    padding:0;
+    float: left;
+    border: 1px solid orange;
+    overflow: hidden;
+}
+
+.gift_card_wrapper>img{
+    width: 200px;
+    height: 150px;
+    
+}
+
+.gift_card_wrapper:nth-child(-n+3){
+    margin: 0 5% 0 0;
+}
+
+
+#personalize_wrapper{
+    width:100%;
+    height:200px;
+    margin:0;
+    padding:0;
+    float:left;
+    border:1px dashed #fff;
+    position: relative;
+}
+
+
+#header{
+    width:50%;
+    margin:0;
+    padding: 0;
+    text-align: left;
+    color:#ccc;
+/*    float: left;*/
+    border-bottom:1px solid #64625f;
+    font-size:1.2rem;
+    position: absolute;
+    top:5px;
+    left:0;
+}
+
+#personalize_wrapper ol{
+    display: block;
+/*    float: left;*/
+    position: absolute;
+    top:15px;
+    left:0;
+/*    border:1px dotted cyan;*/
+    padding: 0;
+    margin: 20px;
+    width:50%
+}
+
+#personalize_wrapper ol>li{
+    padding: 5px;
+    font-family: Arial,sans-serif;
+    font-size:.9rem;
+    color:dimgray;
+}
+
+h2{
+    display: inline-block;
+    width:100%;
+}
+
+#image_preview{
+    width:306px;
+    height:170px;
+    padding:0;
+    margin:0;
+    overflow:hidden;
+/*    border: 1px solid red;*/
+    position: absolute;
+    top:.9rem;
+    right:15px;
+}
+
+#file_upload_fake_button{
+    width:100px;
+    padding: 5px;
+    margin:0px  0 5px 0;
+    color: dimgrey;
+    font-family: Arial,sans-serif;
+    font-size: .7rem;
+    border:1px solid #64625f;
+    position:absolute;
+    top:160px;
+    left:10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#file_upload_button{
+    opacity: 0;
+    position: absolute;
+    top:0;
+    left:0;
+    width:75px;
+    cursor: pointer;
+    cursor: hand;
+}
+
+#file_upload_fake_button:hover{
+    background: #007fff;
+    cursor: pointer;
+    cursor: hand;
+    border:2px solid #9ec7ef;
+}
+
+.line{
+    width:100%;
+    border-bottom: 1px solid #ccc;
+    border-bottom-style: dotted;
+    height: 1px;
+    margin:5px 0;
+    padding: 0;
+    display: block;
+    float: left;
+}
+
+#form_wrapper{
+    width:100%;
+    height: auto;
+    margin:0;
+    padding: 0;
+/*    border:1px dotted #fff;*/
+    display: block;
+    float: left;
+    
+}
+
+.select_value_info{
+    width:81%;
+    display: block;
+    margin:5px 0 15px 5px;
+    padding: 0;
+    color: dimgray;
+    font-family: Arial,sans-serif;
+    font-size:1rem;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ccc;
+    border-bottom-style: dotted;
+}
+
+#delivery_info{
+    width:50%;
+/*    height:150px;*/
+    border-left:1px solid orange;
+    float: right;
+    text-align: center;
+}
+
+#giftamt_form{
+    width:50%;
+    float: left;
+/*    border:1px solid cyan;*/
+    margin:0;
+    padding: 5px; 
+}
+
+.form_element{
+    width: 100%;
+    margin:0 0 5px 5px;
+    padding: 0;
+    display: block;
+    clear: both;
+    color: dimgray;
+    float: left;
+}
+
+.star{
+    color: red;
+}
+
+label{
+    font-family: Arial,sans-serif;
+    font-size:.9rem;
+}
+
+#quantity{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width:15%;
+}
+
+#amount,.amount_denomination{
+    padding: 5px;
+    margin:0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width:15%;
+    display: block;
+    float: left;
+}
+
+.amount_denomination{
+    background: none;
+    margin:0 0 0 15px !important; 
+    text-align: center;
+    color: dimgray;
+}
+
+#amount{
+    text-align: center; 
+}
+
+#info_to_user{
+    width: 100%;
+    margin:0;
+    display: block;
+    float: left;
+    border:1px solid #fff;
+}
+
+#info_to_user>ul{
+    margin:0;
+    padding:10px 10px 5px 18px;
+    color: dimgray;
+    font-family: Arial,sans-serif;
+    font-size:.7rem;
+}
+
+#info_to_user>ul>li{
+    padding :0 0 5px 0;
+}
+
+.myinput{
+    width:90%;
+    padding:5px;
+    margin:0;
+    border-radius: 5px;
+}
+
+.form_label{
+    width:90%;
+    padding:5px;
+    margin-bottom:0;
+}
+
+.button{
+	display:block;
+    width: 90%;
+    background-color:  #ba2b09;
+    color: #000;
+    padding: 10px 5px;
+	border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Arial,sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius:15px;
+	margin: 0 auto;
+}
+
+.button:hover {
+    background-color: red;
+}
+
+
+
+.form_label{
+    width:100%;
+    float:left;
+/*    border: 1px solid green;*/
+    text-align: left !important;
+    padding-left: 20px;
+}
+
+#msg{
+    height: 150px;
+}
+
+#shopping_cart_wrapper{
+    width:100%;
+    display: none;
+    float:left;
+    margin:10px 0;
+    padding:0px;
+}
+
+.sender_reciepient_info{
+    width: 45%;
+    display: block;
+    text-align: left;
+    padding: 5px;
+    font-family: Arial,sans-serif;
+    font-size:.9rem;
+    border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+#shoping_cart_info{
+    display: block;
+    margin: 0;
+    background-color: aqua;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+    color:#000;
+    float: left;
+    width: 100%;
+}
+
+#gift_purchased{
+    display: block;
+    float: left;
+    width: 100%;
+    padding:0 0 10px 25px; ;
+}
+
+#cart_table{
+    display: block;
+    width:100%;
+    float:left;
+    margin:0;
+    padding:0;
+    border-collapse: collapse;
+}
+
+
+#rname_width{
+    width:60%;
+}
+
+
+.qty{
+    text-align: center;
+}
+
+
+
+#cart_table,#cart_table th,#cart_table td{
+    border:1px solid cyan;
+}
+
+#cart_table th,#cart_table td{
+    padding: 5px;
+}
+
+#check_out{
+    width: 97%;
+    text-align: center;
+    float:left;
+    margin:10px 5px 0px 5px;
+    padding: 10px;;
+    color: #000;
+    background-color: aquamarine;
+    font-family: Arial,sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius:15px;
+    cursor: pointer;
+    cursor: hand;
+        
+}
+
+#check_out:hover{
+    background-color: aqua
+}
+
+.mark_red{
+    background-color: darkred;
+}
+
+check_out_section_wrapper{
+    display: block;
+    width:100%;
+    float:left;
+    margin:0;
+    padding: 0;
+}
+
+#check_out_section{
+    display: block;
+    width:100%;
+    float:left;
+    margin:0;
+    padding:10px 10px;
+    border-bottom: 1px solid cyan;
+}
+
+.dspImage{
+    display: block;
+    width:30%;
+    height:150px;
+/*    border: 1px solid cyan;*/
+    overflow: hidden;
+    float: left;
+    margin:0;
+    padding: 0;
+}
+
+.dspImage>img{
+    width:200px;
+    height:150px;
+}
+
+.dspInfo{
+    width:450px;
+    display: block;
+    float:right;
+    margin-left:10px;
+    padding: 0;
+    
+}
+
+.info_title{
+    display: block;
+    float: left;
+    width:35%;
+    margin: 0;
+    padding:4px
+}
+
+
+
+.infor{
+    display: block;
+    float: right;
+    width:65%;
+    padding: 4px;
+    margin: 0;
+}
+
+#contact_form{
+    width:100%;
+   float:left;*/
+    border:1px solid cyan;
+    padding:15px 10px 10px 35px;
+    margin:0;
+    background-color:
+}
+
+#contact_info{
+    display: block;
+    padding:0;
+    width:100%;
+    float: left;
+    margin:0;
+}
+
+.contact_form_label{
+    width:90%;
+    padding:8px 0;
+    margin-bottom:0;
+}
+
+
+.mycontactinput{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+ 
+}
+
+.mycontactinput:focus {
+    width: 50%;
+}

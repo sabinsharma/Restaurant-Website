@@ -1,0 +1,134 @@
+/* 1.DEFAULT OVERRIDES */
+html {
+  box-sizing:border-box;
+  background: url("../images/background.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-color: black;
+  font-family:Arial,Helvetica,sans-serif;
+  color: white;
+}
+
+*,*:before,*:after {
+  box-sizing:inherit;
+}
+
+body{
+	margin: 0;
+}
+
+p a{
+	color: red;
+	text-decoration: none;
+
+}
+.wrapper{
+  width:980px;
+  margin:0 auto;
+}
+
+h2, p{
+	margin: 0;
+}
+
+h1, h2{
+	margin: 0 auto;
+    text-align: center;
+}
+/* Multiple Uses */
+
+.hidden {
+  position:absolute;
+  left:-10000px;
+}
+
+/* Layout */
+#logo {
+	padding-top: 26px;
+	padding-left: 31px;
+	bottom: 0;
+	vertical-align: bottom;
+}
+
+#main{
+	float: right;
+	width: 680px;
+	display: block;
+	height: auto;
+	margin: 0 20px 1em 0;
+	padding: 20px;
+	background: rgba(0,0,0,0.7);
+
+}
+
+#sidebar{
+	float: left;
+}
+
+#main. #sidebar {
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+/*Navigation */
+
+.list-block {
+	position: relative;
+	list-style-type: none;
+	width: 190px;
+	height: 273px;
+	margin: 0 0 0 40px;
+    padding: 15px 23px;
+	background-color:black;
+	opacity: 0.7;
+	border-top: 1.5px solid white;
+	border-bottom: 1.5px solid white;
+}
+
+.list-block li {
+	text-decoration: none;
+	display: block;
+	text-decoration: none;
+	padding:0;
+}
+
+.list-block li a{
+	color:#e4dddb;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.list-block ul{
+	position: absolute;
+	top: 50%;
+    transform: translateY(-50%);
+	padding: 0;
+	margin: 0 auto;
+}
+
+.list-block li a:hover{
+	color:#ba2b09;
+}
+
+.list-block a:active{
+	color:#ba2b09;
+}
+
+/*Footer */
+
+footer{
+	clear:both;
+	position: relative;
+	margin-left: 30px;
+
+	clear:both;
+	border-top: 1px solid white;
+	text-align: center;
+	color: #ba2b09;
+}
+
+footer p{
+	margin-top: 10px;
+}
