@@ -6,3 +6,4 @@ One can select the available image for the gift card or even upload there own pi
 You can enter the denomination or select one by clicking the button.
 you can send gift card to one or more person at once.
 This is not the working version. It just to demonstrate my jquery, javascript, css and html knowledge.
+Please visit http://sabinsharma.com/restaurant/giftcard.html to see the working version.
